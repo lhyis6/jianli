@@ -98,23 +98,23 @@
       "visible": true
     }
   ],
-  "skillContent": "<ul><li><p>嵌入式开发：熟练开发 STM32、ESP32 及 FreeRTOS，深入理解任务调度与硬件中断，擅长处理高并发及硬实时场景。</p></li><li><p>底层协议与驱动：掌握 SPI、IIC、UART、DMA、CAN、USB 等底层驱动及 TCP/UDP 网络协议，掌握复杂数据帧的封包、校验与异常处理技术。</p></li><li><p>仿真调试与分析：掌握 ST-Link 在线仿真与断点调试，擅长通过变量监测与代码逻辑分析快速定位程序异常；熟练使用示波器、逻辑分析仪对信号时序进行分析与调试。</p></li><li><p>SoC与PCIe：具备 SoC PCIe 子系统的底软调试与开发能力，熟悉 ARM、RISC-V 的 CPU 架构与 Cortex；具备 SoC 高速 IO 子系统开发经验，熟悉 PCIe Controller/PHY 架构及 Linux PCIe 子系统。</p></li><li><p>Linux系统与ROS：熟悉 Linux 系统开发环境，擅长基于 Ubuntu 的 ROS/ROS2 机器人开发框架，熟悉基于 Topic、Service 与 Action 的节点通信机制。</p></li><li><p>算法与控制：熟悉 PID、MPC、卡尔曼滤波等控制算法在资源受限的 MCU 上的工程化落地；了解计算机视觉 (OpenCV/YOLO) 在异构系统中的边缘端部署。</p></li><li><p>编程与工具：熟练掌握 C/C++、Python 语言，熟悉面向对象编程与 Git 版本控制；掌握 AI 辅助开发 (AI Coding、Vibe Coding)。</p></li></ul>",
+  "skillContent": "<ul><li><p>嵌入式开发：熟练开发 STM32、ESP32 及 FreeRTOS，深入理解任务调度与硬件中断，擅长处理高并发及硬实时场景。</p></li><li><p>底层协议与驱动：掌握 SPI、IIC、UART、DMA、CAN、USB 等底层驱动及 TCP/UDP 网络协议，掌握复杂数据帧的封包、校验与异常处理技术。</p></li><li><p>仿真调试与分析：掌握 ST-Link 在线仿真与断点调试，擅长通过变量监测与代码逻辑分析快速定位程序异常；熟练使用示波器、逻辑分析仪对信号时序进行分析与调试。</p></li><li><p>SoC与PCIe：具备 SoC PCIe 子系统的底软调试与开发能力，熟悉 ARM、RISC-V 的 CPU 架构与 Cortex；具备 SoC 高速 IO 子系统开发经验，熟悉 PCIe Controller/PHY 架构及 Linux PCIe 子系统。</p></li><li><p>Linux系统与ROS：熟悉 Linux 系统开发环境，擅长基于 Ubuntu 的 ROS/ROS2 机器人开发框架，熟悉基于 Topic、Service 与 Action 的节点通信机制。</p></li><li><p>算法与控制：熟悉 PID、MPC、卡尔曼滤波等控制算法在资源受限的 MCU 上的工程化落地；了解计算机视觉 (OpenCV/YOLO) 在异构系统中的边缘端部署。</p></li><li><p>编程与工具：熟练掌握 C/C++、Python 语言，熟悉面向对象编程与 Git 版本控制；掌握 AI 辅助开发 (AI Coding、Vibe Coding)。</p></li><li><p>CET6</p></li></ul>",
   "selfEvaluationContent": "",
   "experience": [
     {
       "id": "4793ff64-7326-4429-b59c-da1be7758cd9",
-      "company": "经纬恒润",
-      "position": "嵌入式软件工程师",
+      "company": "经纬恒润（北京）",
+      "position": "嵌入式软件开发实习生",
       "date": "2026/06 - 2026/07",
-      "details": "<p>上下电生命周期管理</p><p>PLM</p>",
+      "details": "<ul><li><p>基于 AUTOSAR Classic 架构参与车载 ECU 生命周期管理软件开发，负责项目自定义 PLM（Power Lifecycle Management）模块设计与实现。</p></li><li><p>基于已有 ECU 生命周期 Phase 划分，设计并实现 PLM 状态机，包括状态定义、状态迁移逻辑及状态监控功能，实现 ECU 生命周期状态管理。</p></li><li><p>采用函数指针数组设计生命周期函数执行序列，将不同软件模块初始化及下电处理函数按照既定调用顺序组织管理，实现生命周期流程模块化。</p></li><li><p>参与 PLM 模块调试与功能验证，通过 Debug 修改变量模拟不同生命周期事件，验证状态机迁移过程及各阶段执行流程正确性。</p></li></ul>",
       "visible": true
     },
     {
       "id": "c5086629-ae83-4910-884f-c7b103cfe919",
-      "company": "华为",
-      "position": "嵌入式软件工程师",
+      "company": "华为技术有限公司 — 半导体业务部（北京）",
+      "position": "嵌入式软件开发实习生",
       "date": "2026/07 - 至今",
-      "details": "<p>PCie</p>",
+      "details": "<ul><li><p>参与华为SoC平台PCIe子系统软件开发与验证，基于Linux Kernel PCIe驱动框架进行功能分析与代码修改，阅读并梳理PCIe RC/EP双端架构，深入理解BAR配置、DMA、MSI/MSI-X、LTSSM状态机、Link Training、iATU及ASPM等关键模块。</p></li><li><p>从0设计并实现PCIe QCC自动化测试方案，基于Windows测试环境开发bat及PowerShell脚本，通过串口、ADB/Fastboot两种方式调用设备端PCIe测试接口，实现PCIe建链、中断收发、流量测试等功能自动化验证；过程中涉及SoC启动流程、Kernel PCIe初始化及SMMU、On-chip ROM等模块联调。</p></li><li><p>参与PCIe维测版本开发，在Linux Kernel DWC PCIe驱动代码中增加状态采集功能，通过定时器触发回调读取关键PCIe寄存器，并利用环形缓冲区保存历史状态信息，增强PCIe异常场景下的问题定位能力。</p></li><li><p>参与PCIe MSI中断异常定位与修复，结合串口日志、软件运行状态及硬件寄存器信息进行联合分析，定位MSI Mask配置异常导致中断无法触发的问题，并完成代码修改及验证闭环。</p></li><li><p>与相关模块开发人员协同，根据功能需求分析PCIe接口影响范围，完成驱动代码适配、云端编译、镜像生成、UDP单板烧录加载及功能测试验证，积累SoC平台软硬件联合调试经验。</p></li></ul>",
       "visible": true
     }
   ],
@@ -180,7 +180,7 @@
   ],
   "certificates": [],
   "customData": {},
-  "activeSection": "basic",
+  "activeSection": "skills",
   "globalSettings": {
     "baseFontSize": 16,
     "pagePadding": 14,
@@ -195,8 +195,8 @@
     "flexibleHeaderLayout": true,
     "autoOnePage": false
   },
-  "id": "01bf0bb0-9847-4393-8e30-e7c0c040bbb7",
-  "createdAt": "2026-09-01T14:06:39.683Z",
-  "updatedAt": "2026-09-01T14:41:24.983Z",
+  "id": "46107cc5-d3b0-424b-b737-7ee813a03fa2",
+  "createdAt": "2026-09-02T02:01:34.322Z",
+  "updatedAt": "2026-09-02T08:37:07.395Z",
   "templateId": "creative"
 }
