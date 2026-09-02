@@ -98,15 +98,15 @@
       "visible": true
     }
   ],
-  "skillContent": "<ul><li><p>嵌入式开发：熟练开发 STM32、ESP32 及 FreeRTOS，深入理解任务调度与硬件中断，擅长处理高并发及硬实时场景。</p></li><li><p>底层协议与驱动：掌握 SPI、IIC、UART、DMA、CAN、USB 等底层驱动及 TCP/UDP 网络协议，掌握复杂数据帧的封包、校验与异常处理技术。</p></li><li><p>仿真调试与分析：掌握 ST-Link 在线仿真与断点调试，擅长通过变量监测与代码逻辑分析快速定位程序异常；熟练使用示波器、逻辑分析仪对信号时序进行分析与调试。</p></li><li><p>SoC与PCIe：具备 SoC PCIe 子系统的底软调试与开发能力，熟悉 ARM、RISC-V 的 CPU 架构与 Cortex；具备 SoC 高速 IO 子系统开发经验，熟悉 PCIe Controller/PHY 架构及 Linux PCIe 子系统。</p></li><li><p>Linux系统与ROS：熟悉 Linux 系统开发环境，擅长基于 Ubuntu 的 ROS/ROS2 机器人开发框架，熟悉基于 Topic、Service 与 Action 的节点通信机制。</p></li><li><p>算法与控制：熟悉 PID、MPC、卡尔曼滤波等控制算法在资源受限的 MCU 上的工程化落地；了解计算机视觉 (OpenCV/YOLO) 在异构系统中的边缘端部署。</p></li><li><p>编程与工具：熟练掌握 C/C++、Python 语言，熟悉面向对象编程与 Git 版本控制；掌握 AI 辅助开发 (AI Coding、Vibe Coding)。</p></li><li><p>CET6</p></li></ul>",
+  "skillContent": "<ul><li><p><strong>嵌入式系统开发：</strong> 熟悉 STM32、ESP32 等 MCU 平台开发，掌握 FreeRTOS 基本原理及任务调度机制，具备裸机/RTOS 环境下外设驱动开发、中断处理及系统调试经验。</p></li><li><p><strong>底层驱动与通信协议：</strong> 熟悉 SPI、I2C、UART、CAN、USB 等常用外设接口及驱动开发，掌握 DMA 数据传输机制；熟悉 TCP/UDP 网络通信协议，具备数据帧封装、解析、校验及异常处理经验。</p></li><li><p><strong>SoC 与 Linux 底层开发：</strong> 具备 SoC 平台底层软件开发经验，熟悉 Linux 系统开发环境及 Kernel 驱动开发流程；了解 ARM、RISC-V 架构及 Cortex 系列处理器，熟悉 PCIe 子系统架构、Controller/PHY 工作机制及高速 IO 调试流程。</p></li><li><p><strong>硬件调试与问题定位：</strong> 熟悉 ST-Link 在线调试工具，掌握断点调试、变量监测及代码逻辑分析方法；能够使用示波器、逻辑分析仪进行硬件信号时序分析与软硬件联合调试。</p></li><li><p><strong>机器人与算法应用：</strong> 熟悉 Linux 下 ROS/ROS2 开发框架，掌握基于 Topic、Service、Action 的节点通信机制；了解 PID、MPC、卡尔曼滤波等控制算法，具备 OpenCV、YOLO 等计算机视觉算法在边缘设备上的应用经验。</p></li><li><p><strong>编程语言与开发工具：</strong> 熟练掌握 C/C++、Python，熟悉面向对象编程思想及 Git 版本管理工具；了解 AI 辅助开发工具在代码编写、调试和效率提升中的应用。</p></li><li><p><strong>英语能力：</strong> CET-6。</p></li></ul>",
   "selfEvaluationContent": "",
   "experience": [
     {
       "id": "4793ff64-7326-4429-b59c-da1be7758cd9",
-      "company": "经纬恒润（北京）",
+      "company": "北京经纬恒润科技股份有限公司（北京）",
       "position": "嵌入式软件开发实习生",
       "date": "2026/06 - 2026/07",
-      "details": "<ul><li><p>基于 AUTOSAR Classic 架构参与车载 ECU 生命周期管理软件开发，负责项目自定义 PLM（Power Lifecycle Management）模块设计与实现。</p></li><li><p>基于已有 ECU 生命周期 Phase 划分，设计并实现 PLM 状态机，包括状态定义、状态迁移逻辑及状态监控功能，实现 ECU 生命周期状态管理。</p></li><li><p>采用函数指针数组设计生命周期函数执行序列，将不同软件模块初始化及下电处理函数按照既定调用顺序组织管理，实现生命周期流程模块化。</p></li><li><p>参与 PLM 模块调试与功能验证，通过 Debug 修改变量模拟不同生命周期事件，验证状态机迁移过程及各阶段执行流程正确性。</p></li></ul>",
+      "details": "<ul><li><p>基于 AUTOSAR Classic 架构参与车载 ECU 生命周期管理软件开发，负责项目自定义 PLM（Power Lifecycle Management）模块设计与实现。</p></li><li><p>基于已有 ECU 生命周期 Phase 划分，设计并实现 PLM 状态机，包括状态定义、状态转移逻辑及状态监控功能，实现 ECU 生命周期状态管理。</p></li><li><p>采用函数指针数组设计生命周期函数执行序列，将各软件模块初始化、运行及下电处理函数按照既定顺序组织管理，实现生命周期流程模块化。</p></li><li><p>参与 PLM 模块调试与功能验证，通过调试环境触发不同生命周期阶段切换，验证 PLM 状态机状态变化及各阶段函数执行流程正确性。</p></li></ul>",
       "visible": true
     },
     {
@@ -114,7 +114,7 @@
       "company": "华为技术有限公司 — 半导体业务部（北京）",
       "position": "嵌入式软件开发实习生",
       "date": "2026/07 - 至今",
-      "details": "<ul><li><p>参与华为SoC平台PCIe子系统软件开发与验证，基于Linux Kernel PCIe驱动框架进行功能分析与代码修改，阅读并梳理PCIe RC/EP双端架构，深入理解BAR配置、DMA、MSI/MSI-X、LTSSM状态机、Link Training、iATU及ASPM等关键模块。</p></li><li><p>从0设计并实现PCIe QCC自动化测试方案，基于Windows测试环境开发bat及PowerShell脚本，通过串口、ADB/Fastboot两种方式调用设备端PCIe测试接口，实现PCIe建链、中断收发、流量测试等功能自动化验证；过程中涉及SoC启动流程、Kernel PCIe初始化及SMMU、On-chip ROM等模块联调。</p></li><li><p>参与PCIe维测版本开发，在Linux Kernel DWC PCIe驱动代码中增加状态采集功能，通过定时器触发回调读取关键PCIe寄存器，并利用环形缓冲区保存历史状态信息，增强PCIe异常场景下的问题定位能力。</p></li><li><p>参与PCIe MSI中断异常定位与修复，结合串口日志、软件运行状态及硬件寄存器信息进行联合分析，定位MSI Mask配置异常导致中断无法触发的问题，并完成代码修改及验证闭环。</p></li><li><p>与相关模块开发人员协同，根据功能需求分析PCIe接口影响范围，完成驱动代码适配、云端编译、镜像生成、UDP单板烧录加载及功能测试验证，积累SoC平台软硬件联合调试经验。</p></li></ul>",
+      "details": "<ul><li><p>参与华为SoC平台PCIe功能开发与验证，基于Linux Kernel PCIe驱动代码进行分析与修改，阅读RC/EP两端实现，理解PCIe设备枚举、BAR配置、DMA、MSI/MSI-X、LTSSM状态机、Link Training、iATU及ASPM等模块。</p></li><li><p>针对芯片回片后的PCIe功能验证需求，开发PCIe自动化测试脚本，基于Windows PC环境使用bat和PowerShell实现测试流程自动化，通过串口、ADB/Fastboot方式调用单板端PCIe测试接口，完成PCIe建链、中断收发、数据流量测试等功能验证。</p></li><li><p>参与PCIe维测版本开发，在Linux Kernel DWC PCIe驱动代码中增加定时状态采集功能，根据需求通过定时器回调读取指定寄存器，并使用环形数组保存历史状态信息；完成代码修改、云端编译、镜像生成、UDP单板烧录加载及测试验证。</p></li><li><p>参与PCIe MSI中断异常定位，结合串口日志、软件运行状态及硬件寄存器状态进行分析，定位MSI Mask配置异常导致中断未触发的问题，修改相关配置并完成单板验证。</p></li><li><p>配合其他部门开发人员进行PCIe功能适配与联调，根据需求修改PCIe相关驱动代码，并通过云端编译、镜像生成、UDP单板烧录加载及运行测试完成修改验证。</p></li></ul>",
       "visible": true
     }
   ],
@@ -197,6 +197,6 @@
   },
   "id": "46107cc5-d3b0-424b-b737-7ee813a03fa2",
   "createdAt": "2026-09-02T02:01:34.322Z",
-  "updatedAt": "2026-09-02T08:37:07.395Z",
+  "updatedAt": "2026-09-02T12:25:55.307Z",
   "templateId": "creative"
 }
