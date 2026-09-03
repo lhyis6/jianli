@@ -83,7 +83,7 @@
       "startDate": "2020.09",
       "endDate": "2024.07",
       "gpa": "91.94 (Rank:1/94)",
-      "description": "<ul><li><p>方向：嵌入式软件</p></li></ul>",
+      "description": "<ul><li><p>方向：嵌入式系统与运动控制</p></li></ul>",
       "visible": true
     },
     {
@@ -94,12 +94,12 @@
       "startDate": "2024.09",
       "endDate": "2027.07",
       "gpa": "",
-      "description": "<ul><li><p>推免/保研</p></li><li><p>方向：无人机控制系统与集群规划</p></li></ul>",
+      "description": "<ul><li><p>推免/保研</p></li><li><p>方向：无人机嵌入式飞控系统</p></li></ul>",
       "visible": true
     }
   ],
-  "skillContent": "<ul><li><p><strong>嵌入式系统开发：</strong> 熟悉 STM32、ESP32 等 MCU 平台开发，掌握 FreeRTOS 基本原理及任务调度机制，具备裸机/RTOS 环境下外设驱动开发、中断处理及系统调试经验。</p></li><li><p><strong>底层驱动与通信协议：</strong> 熟悉 SPI、I2C、UART、CAN、USB 等常用外设接口及驱动开发，掌握 DMA 数据传输机制；熟悉 TCP/UDP 网络通信协议，具备数据帧封装、解析、校验及异常处理经验。</p></li><li><p><strong>SoC 与 Linux 底层开发：</strong> 具备 SoC 平台底层软件开发经验，熟悉 Linux 系统开发环境及 Kernel 驱动开发流程；了解 ARM、RISC-V 架构及 Cortex 系列处理器，熟悉 PCIe 子系统架构、Controller/PHY 工作机制及高速 IO 调试流程。</p></li><li><p><strong>硬件调试与问题定位：</strong> 熟悉 ST-Link 在线调试工具，掌握断点调试、变量监测及代码逻辑分析方法；能够使用示波器、逻辑分析仪进行硬件信号时序分析与软硬件联合调试。</p></li><li><p><strong>机器人与算法应用：</strong> 熟悉 Linux 下 ROS/ROS2 开发框架，掌握基于 Topic、Service、Action 的节点通信机制；了解 PID、MPC、卡尔曼滤波等控制算法，具备 OpenCV、YOLO 等计算机视觉算法在边缘设备上的应用经验。</p></li><li><p><strong>编程语言与开发工具：</strong> 熟练掌握 C/C++、Python，熟悉面向对象编程思想及 Git 版本管理工具；了解 AI 辅助开发工具在代码编写、调试和效率提升中的应用。</p></li><li><p><strong>英语能力：</strong> CET-6。</p></li></ul>",
-  "selfEvaluationContent": "",
+  "skillContent": "<ul><li><p><strong>嵌入式底软开发：</strong> 熟悉 MCU 与 SoC 平台底层软件开发，具备裸机、RTOS 及 Linux 环境下的软件开发经验。熟悉 STM32、ESP32 等 MCU 平台开发，掌握任务调度、中断机制、外设驱动及系统调试流程；具备 Linux Kernel 下设备驱动开发经验，熟悉 Linux 设备驱动框架、platform driver 机制、设备初始化流程、中断处理及 DMA 数据传输机制，具备 SoC 平台 Linux 内核态驱动开发经验。</p></li><li><p><strong>通信协议与外设开发：</strong> 熟悉 UART、SPI、CAN、PCIe 等外设接口及驱动开发，熟悉 TCP/UDP 网络通信流程，具备通信协议解析、数据帧封装、校验及异常处理经验。</p></li><li><p><strong>系统调试与问题定位：</strong> 熟悉串口、调试器等嵌入式调试工具，掌握断点调试、日志分析、寄存器查看、Dump 信息分析等问题定位方法；具备通过 test double、接口替换等方式辅助功能验证和异常复现的经验，能够使用示波器、逻辑分析仪进行硬件信号分析。</p></li><li><p><strong>编程语言与开发工具：</strong> 熟练掌握 C/C++、Python，熟悉面向对象编程思想及 Git 版本管理工具；了解 AI 辅助开发工具在代码编写、调试和效率提升中的应用。</p></li><li><p><strong>英语能力：</strong> CET-6。</p></li></ul>",
+  "selfEvaluationContent": "<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>",
   "experience": [
     {
       "id": "4793ff64-7326-4429-b59c-da1be7758cd9",
@@ -157,6 +157,13 @@
       "order": 1
     },
     {
+      "id": "selfEvaluation",
+      "title": "自我评价",
+      "icon": "💬",
+      "enabled": true,
+      "order": 2
+    },
+    {
       "id": "skills",
       "title": "专业技能",
       "icon": "⚡",
@@ -165,7 +172,7 @@
     },
     {
       "id": "experience",
-      "title": "工作经验",
+      "title": "实习经历",
       "icon": "💼",
       "enabled": true,
       "order": 4
@@ -180,7 +187,7 @@
   ],
   "certificates": [],
   "customData": {},
-  "activeSection": "skills",
+  "activeSection": "education",
   "globalSettings": {
     "baseFontSize": 16,
     "pagePadding": 14,
@@ -197,6 +204,6 @@
   },
   "id": "46107cc5-d3b0-424b-b737-7ee813a03fa2",
   "createdAt": "2026-09-02T02:01:34.322Z",
-  "updatedAt": "2026-09-02T12:25:55.307Z",
+  "updatedAt": "2026-09-03T08:47:44.743Z",
   "templateId": "creative"
 }
